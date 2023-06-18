@@ -1,0 +1,2 @@
+# ignore all .txt files in mass_accept_invite
+mass_accept_invite/*.txt
