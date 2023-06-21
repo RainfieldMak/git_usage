@@ -43,8 +43,11 @@ class App:
             self.token = token
 
 
+
+
         def get_text_entry(self):
             
+            self.app.resultfield.clear_text()
             entered_token = self.entry.get()
             self.set_token(entered_token)
             tool=mass_accept.tool(self.get_token())
@@ -71,6 +74,10 @@ class App:
 
         def update_text(self, text):
             self.out.insert(tk.END, text + "\n")
+
+
+        def clear_text(self):
+            self.out.delete("1.0", tk.END)
 
 root = tk.Tk()
 app = App(root)
