@@ -1,8 +1,16 @@
 
-Goal: 
+## Requirements:
+	tkinter
+ 	
+	
+
+## Goal 
 	Automatically accept all invitations to collaborate on repo and organizations.
 
-Usage : 
-	1. Create "gitgub_token.txt" and place in the same folder as "mass_accpet.py"
-	2. Run mass_accept.py
+## Usage : 
+	
+	 Run app.py
 
+
+## Example
+![image](https://github.com/RainfieldMak/git_usage/assets/130533588/4c404ce5-186f-491f-ab20-45c53d9ae86b)
