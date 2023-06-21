@@ -30,7 +30,7 @@ class App:
             self.label = tk.Label(self.frame, text="Enter GitHub Token", bg="white")
             self.label.pack(side=tk.LEFT, padx=(10, 5))
 
-            self.entry = tk.Entry(self.frame)
+            self.entry = tk.Entry(self.frame, show="*")
             self.entry.pack(side=tk.LEFT, padx=(0, 10))
 
             self.button = tk.Button(self.app.frame, text="Accept Invite", command=self.get_text_entry)
